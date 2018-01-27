@@ -13,7 +13,7 @@ setup(
     license = 'BSD License',
     packages = ['bittrex_v2', 'bittrex_v2.tests'],
     description = 'Python wrapper for Bittrex API V2, currently in beta.',
-    long_description = open('README.md','r').read(),
+    long_description = open('README.md','r',encoding="utf8").read(),
     keywords = ['python', 'bittrex', 'exchange', 'cryptocurrency', 'API', 'wrapper', 'v2'],
     install_requires = ['requests']
 )
